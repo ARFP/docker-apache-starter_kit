@@ -78,5 +78,5 @@ Expose le port 3000 et le lie au port 80 du conteneur.
 Le port 3000 est le port utilisé pour accéder au site web.
 Le port 80 est le port utilisé par le conteneur.
 
-Vous accéder à l'application via [http://localhost:3000](http://localhost:3000).
+Vous accédez à l'application via [http://localhost:3000](http://localhost:3000).
 
