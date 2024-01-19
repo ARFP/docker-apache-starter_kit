@@ -5,6 +5,6 @@ services:
     container_name: mdevoldere-apache
     restart: always 
     volumes: 
-      - './:/usr/local/apache2/htdocs'
+      - './www:/usr/local/apache2/htdocs'
     ports: 
       - '3000:80'
