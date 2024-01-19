@@ -1,0 +1,10 @@
+name: mdevoldere-monprojet
+services:
+  apache: 
+    image: httpd 
+    container_name: mdevoldere-apache
+    restart: always 
+    volumes: 
+      - './:/usr/local/apache2/htdocs'
+    ports: 
+      - '3000:80'
